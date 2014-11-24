@@ -43,8 +43,8 @@ public class Vector3DTest {
     @Test
     public void testLength() {
         System.out.println("length");
-        Vector3D instance = new Vector3D(2,3,5);
-        double expResult = 6.164414002968976;
+        Vector3D instance = new Vector3D(2,3,7);
+        double expResult = 7.874007874011811;
         double result = instance.length();
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.

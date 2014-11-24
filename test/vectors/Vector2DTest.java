@@ -116,7 +116,7 @@ public class Vector2DTest {
     @Test
     public void testEquals() {
         System.out.println("equals");
-        Object anotherObject = new Vector2D(2,4);
+        Object anotherObject = new Vector2D(2,6);
         Vector2D instance = new Vector2D(3,2);
         boolean expResult = false;
         boolean result = instance.equals(anotherObject);
