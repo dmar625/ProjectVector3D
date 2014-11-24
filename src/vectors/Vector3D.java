@@ -108,6 +108,6 @@ public class Vector3D {
         } else {
             return false;
         }//else
-    }//public boolean equals
+    }//public boolean  equals
     
 }//public class Vector3D

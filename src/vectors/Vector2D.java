@@ -91,6 +91,6 @@ public class Vector2D {
         } else {
             return false;
         }//else
-    }//public boolean equals
+    }//public boolean  equals
             
 }//public class Vector2D
