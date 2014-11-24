@@ -117,8 +117,8 @@ public class Vector3DTest {
     @Test
     public void testToString() {
         System.out.println("toString");
-        Vector3D instance = new Vector3D(2,4,5);
-        String expResult = "[2.0, 4.0, 5.0]";
+        Vector3D instance = new Vector3D(2,4,7);
+        String expResult = "[2.0, 4.0, 7.0]";
         String result = instance.toString();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
