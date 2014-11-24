@@ -87,9 +87,9 @@ public class Vector2DTest {
     @Test
     public void testDotProduct() {
         System.out.println("dotProduct");
-        Vector2D anotherVector = new Vector2D(2,8);
+        Vector2D anotherVector = new Vector2D(2,10);
         Vector2D instance = new Vector2D(2,4);
-        double expResult = 36.0;
+        double expResult = 44.0;
         double result = instance.dotProduct(anotherVector);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
